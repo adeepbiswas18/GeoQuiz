@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_heigth="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:padding="24dp"
+        android:text="@string/question_text"
+        android:id="@+id/textView" />
+
+    <Chronometer
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chronometer2" />
+
+    <Button
+        android:id="@+id/true_button"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:text="@string/true_button"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/false_button"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:text="@string/false_button" />
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/calendarView" /><![CDATA[
+
+    LinearLayout>
+]]>
+</LinearLayout>
+
+
